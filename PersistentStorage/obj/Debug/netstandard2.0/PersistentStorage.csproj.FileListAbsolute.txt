@@ -1,0 +1,9 @@
+D:\Projects\PersistentStorage\PersistentStorage\bin\Debug\netstandard2.0\PersistentStorage.deps.json
+D:\Projects\PersistentStorage\PersistentStorage\bin\Debug\netstandard2.0\PersistentStorage.dll
+D:\Projects\PersistentStorage\PersistentStorage\bin\Debug\netstandard2.0\PersistentStorage.pdb
+D:\Projects\PersistentStorage\PersistentStorage\obj\Debug\netstandard2.0\PersistentStorage.csprojAssemblyReference.cache
+D:\Projects\PersistentStorage\PersistentStorage\obj\Debug\netstandard2.0\PersistentStorage.csproj.CoreCompileInputs.cache
+D:\Projects\PersistentStorage\PersistentStorage\obj\Debug\netstandard2.0\PersistentStorage.AssemblyInfoInputs.cache
+D:\Projects\PersistentStorage\PersistentStorage\obj\Debug\netstandard2.0\PersistentStorage.AssemblyInfo.cs
+D:\Projects\PersistentStorage\PersistentStorage\obj\Debug\netstandard2.0\PersistentStorage.dll
+D:\Projects\PersistentStorage\PersistentStorage\obj\Debug\netstandard2.0\PersistentStorage.pdb
