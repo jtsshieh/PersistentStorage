@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PersistentStorage
+﻿namespace PersistentStorage
 {
     /// <summary>
     /// The base for a Cached Storage Method
     /// </summary>
+    /// <typeparam name="T">The Base Object</typeparam>
     public interface ICachedStorageMethod<T> : IStorageMethod<T>
-    {
+    { 
+       
         /// <summary>
         /// The Current Cache object
         /// </summary>
@@ -21,7 +19,7 @@ namespace PersistentStorage
         /// <summary>
         /// Sets the Cache 
         /// </summary>
-        /// <param name="CacheObject">The CacheObject to set as a Serializable</param>
+        /// <param name="CacheObject">The CacheObject to set the cache as</param>
         void SetCache(T CacheObject);
         /// <summary>
         /// Saves the stored cache into the Persistent Storage

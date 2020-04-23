@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PersistentStorage
+﻿namespace PersistentStorage
 {
     /// <summary>
     /// The base for a Storage Method
     /// </summary>
+    /// <typeparam name="T">The Base Object</typeparam>
     public interface IStorageMethod<T>
     {
         /// <summary>

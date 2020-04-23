@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PersistentStorage
+﻿namespace PersistentStorage
 {
     /// <summary>
-    /// The Base for a Cached Persistent Storage File
+    /// The base for a Cached Storage Method File
     /// </summary>
+    /// <typeparam name="T">The Base Object</typeparam>
     public interface ICachedStorageMethodFile<T> : ICachedStorageMethod<T>
     {
         /// <summary>
