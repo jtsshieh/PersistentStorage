@@ -25,23 +25,18 @@
         }
 
         /// <summary>
-        /// Initialze the Selected Cache Persistent Storage Method with a DataFile
+        /// Initialize the Selected Cache Persistent Storage Method with Properties 
         /// </summary>
-        /// <param name="DataFile">The path to the data fil</param>
+        /// <param name="Properties">The IProperties object to pass in</param>
         /// <returns>A boolean of whether the operation completed succesfully or failed</returns>
-        public bool Initialize(string DataFile)
+        public bool Initialize(IProperties Properties)
         {
             if (StorageMethod == null) return false;
-            if (StorageMethod is ICachedStorageMethodFile<T>)
-            {
-                ((ICachedStorageMethodFile<T>)StorageMethod).Initialize(DataFile);
-                ((ICachedStorageMethod<T>)StorageMethod).UpdateCache();
-                CurrentCache = ((ICachedStorageMethod<T>)StorageMethod).GetCache();
-                return true;
-            }
-            return false;
+            ((ICachedStorageMethod<T>)StorageMethod).Initialize(Properties);
+            ((ICachedStorageMethod<T>)StorageMethod).UpdateCache();
+            CurrentCache = ((ICachedStorageMethod<T>)StorageMethod).GetCache();
+            return true;
         }
-
         /// <summary>
         /// Save the Cache into the Persistent Storage
         /// </summary>

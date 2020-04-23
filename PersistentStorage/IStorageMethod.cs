@@ -10,6 +10,7 @@
         /// The name of the Storage Method
         /// </summary>
         string Name { get; }
+
         /// <summary>
         /// Initializes the Storage Method
         /// </summary>
