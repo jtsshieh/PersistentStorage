@@ -37,6 +37,7 @@
             CurrentCache = ((ICachedStorageMethod<T>)StorageMethod).GetCache();
             return true;
         }
+
         /// <summary>
         /// Save the Cache into the Persistent Storage
         /// </summary>

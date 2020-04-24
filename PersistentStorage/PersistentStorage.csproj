@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Authors>jtsshieh</Authors>
     <Company />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Garamia.PersistentStorage</PackageId>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/jtsshieh/PersistentStorage</RepositoryUrl>
+    <RepositoryType></RepositoryType>
   </PropertyGroup>
 
 </Project>
