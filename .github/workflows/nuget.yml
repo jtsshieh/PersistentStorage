@@ -1,11 +1,11 @@
-name: publish to nuget
+name: Publish to NuGet
 on:
   push:
     branches:
       - master # Default release branch
 jobs:
   publish:
-    name: build, pack & push
+    name: Build, Pack, and Push
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
