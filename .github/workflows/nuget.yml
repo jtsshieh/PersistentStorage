@@ -1,0 +1,26 @@
+name: publish to nuget
+on:
+  push:
+    branches:
+      - master # Default release branch
+jobs:
+  publish:
+    name: build, pack & push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Required in case of previous dotnet SDK versions as the host always has latest version installed
+      # Visit bit.ly/2synnZl to see the list of SDKs that are pre-installed with ubuntu-latest / windows-latest
+      # - name: Setup dotnet
+      #   uses: actions/setup-dotnet@v1
+      #   with:
+      #     dotnet-version: 3.1.100
+
+      # Publish
+      - name: publish on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: PersistentStorage/PersistentStorage.csproj # Relative to repository root
+          PACKAGE_NAME: Garamia.PersistentStorage
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}} # API key for the NuGet feed
