@@ -3,7 +3,7 @@
     /// <summary>
     /// The base for a Cached Storage Method
     /// </summary>
-    /// <typeparam name="T">The Base Object</typeparam>
+    /// <typeparam name="T">The object being stored</typeparam>
     public interface ICachedStorageMethod<T> : IStorageMethod<T>
     { 
         /// <summary>

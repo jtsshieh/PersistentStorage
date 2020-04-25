@@ -3,9 +3,9 @@
 namespace PersistentStorage
 {
     /// <summary>
-    /// Base Persistent Storage Class
+    ///The base for persistent storage controller
     /// </summary>
-    /// <typeparam name="T">The Base Object</typeparam>
+    /// <typeparam name="T">The object being stored</typeparam>
     public class PersistentStorage<T>
     {
         /// <summary>
@@ -14,12 +14,12 @@ namespace PersistentStorage
         public List<IStorageMethod<T>> StorageMethods = new List<IStorageMethod<T>>();
 
         /// <summary>
-        /// The Selected Storage Method
+        /// The selected storage method
         /// </summary>
         public IStorageMethod<T> StorageMethod;
 
         /// <summary>
-        /// Initialize a new Persistent Storage
+        /// Initialize a new Persistent Storage Controller
         /// </summary>
         /// <param name="StorageMethods">An array of storage methods to add</param>
         public PersistentStorage(params IStorageMethod<T>[] StorageMethods)
@@ -28,7 +28,7 @@ namespace PersistentStorage
         }
 
         /// <summary>
-        /// Add a Storage Method
+        /// Add a storage method
         /// </summary>
         /// <param name="StorageMethod">The Storage Method to add</param>
         public void AddStorageMethod(IStorageMethod<T> StorageMethod)
@@ -37,7 +37,7 @@ namespace PersistentStorage
         }
 
         /// <summary>
-        /// Selects a Storage Method by its instance, if it exists
+        /// Selects a storage method by its instance, if it exists
         /// </summary>
         /// <param name="StorageMethod">The Storage Method instance to select</param>
         public void SelectStorageMethod(IStorageMethod<T> StorageMethod)
@@ -46,7 +46,7 @@ namespace PersistentStorage
         }
 
         /// <summary>
-        /// Selects a Storage Method by its name, if it exists
+        /// Selects a storage method by its name, if it exists
         /// </summary>
         /// <param name="StorageMethodName">The Name of the Storage Method to select</param>
         public void SelectStorageMethod(string StorageMethodName)

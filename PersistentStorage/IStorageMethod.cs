@@ -1,18 +1,18 @@
 ﻿namespace PersistentStorage
 {
     /// <summary>
-    /// The base for a Storage Method
+    /// The base for a storage method
     /// </summary>
-    /// <typeparam name="T">The Base Object</typeparam>
+    /// <typeparam name="T">The object being stored</typeparam>
     public interface IStorageMethod<T>
     {
         /// <summary>
-        /// The name of the Storage Method
+        /// The name of the storage method
         /// </summary>
         string Name { get; }
 
         /// <summary>
-        /// Initializes the Storage Method
+        /// Initializes the storage method
         /// </summary>
         void Initialize();
     }

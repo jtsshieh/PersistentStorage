@@ -3,11 +3,11 @@
     /// <summary>
     /// The base for a Non Cached Storage Method
     /// </summary>
-    /// <typeparam name="T">The Base Object</typeparam>
+    /// <typeparam name="T">The object being stored</typeparam>
     public interface INonCachedStorageMethod<T> : IStorageMethod<T>
     {
         /// <summary>
-        /// Initialize the Non Cached StorageMethod with Properties
+        /// Initialize the Non Cached storage method with Properties
         /// </summary>
         /// <param name="Properties">The IProperties object to pass in</param>
         void Initialize(IProperties Properties);

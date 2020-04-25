@@ -3,7 +3,7 @@
     /// <summary>
     /// A Non Cached Persistent Storage Controller
     /// </summary>
-    /// <typeparam name="T">The Base Object</typeparam>
+    /// <typeparam name="T">The object being stored</typeparam>
     public class NonCachedPersistentStorage<T> : PersistentStorage<T>
     {
 
