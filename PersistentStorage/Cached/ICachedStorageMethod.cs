@@ -1,4 +1,4 @@
-﻿namespace PersistentStorage
+﻿namespace PersistentStorage.Cached
 {
     /// <summary>
     /// The base for a Cached Storage Method

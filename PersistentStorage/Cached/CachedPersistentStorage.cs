@@ -1,4 +1,4 @@
-﻿namespace PersistentStorage
+﻿namespace PersistentStorage.Cached
 {
     /// <summary>
     /// A Cached Persistent Storage Controller
