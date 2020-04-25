@@ -1,4 +1,4 @@
-# PersistentStorage
+# Garamia.PersistentStorage
 
 ![Nuget](https://img.shields.io/nuget/v/Garamia.PersistentStorage?style=for-the-badge)
 
