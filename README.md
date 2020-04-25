@@ -4,3 +4,4 @@
 
 Add Persistent Storage to your project easily with Persistent Storage.
 
+[API Documentation](https://jtsshieh.github.io/PersistentStorage/)
