@@ -11,12 +11,18 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - run: choco install docfx
-    - run: docfx init -q
-    - run: docfx PersistentStorage\docfx.json --serve
-    # Publish generated site using GitHub Pages
-    - uses: maxheld83/ghpages@master
-      name: Publish Documentation on GitHub Pages
+    - name: setup-msbuild
+      uses: microsoft/setup-msbuild@v1
+    
+    - name: Restore Dependencies
+      run: msbuild -t:restore
+    - name: Build Project
+      run: msbuild PersistentStorage.sln
+    
+    - name: Publish Documentation to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        target_branch: gh-pages
+        build_dir: PersistentStorage/_site
       env:
-        BUILD_DIR: _site 
-        GH_PAT: ${{ secrets.GH_PAT }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
