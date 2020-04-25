@@ -6,7 +6,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "D:\\Projects\\PersistentStorage\\PersistentStorage"
+          "src": "./PersistentStorage"
         }
       ],
       "dest": "api",
