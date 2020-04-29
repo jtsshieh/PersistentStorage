@@ -3,15 +3,11 @@
     {
       "src": [
         {
-          "files": [
-            "**.csproj"
-          ],
-          "src": "./"
+          "files": [ "**.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "dest": "../../docs/api"
     }
   ],
   "build": {
@@ -20,22 +16,25 @@
         "files": [
           "api/**.yml",
           "api/index.md"
-        ]
+        ],
+        "src": "../../docs"
       },
       {
         "files": [
           "articles/**.md",
-          "articles/**/toc.yml",
+          "articles/**.yml",
           "toc.yml",
-          "*.md"
-        ]
+          "**.md"
+        ],
+        "src": "../../docs"
       }
     ],
     "resource": [
       {
         "files": [
           "images/**"
-        ]
+        ],
+        "src": "../../docs"
       }
     ],
     "overwrite": [
@@ -46,10 +45,11 @@
         "exclude": [
           "obj/**",
           "_site/**"
-        ]
+        ],
+        "src": "../../docs"
       }
     ],
-    "dest": "_site",
+    "dest": "../../docs/_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

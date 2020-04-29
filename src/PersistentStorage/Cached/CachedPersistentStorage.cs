@@ -27,12 +27,12 @@
         /// <summary>
         /// Initialize the Selected Cache Persistent Storage Method with Properties 
         /// </summary>
-        /// <param name="Properties">The IProperties object to pass in</param>
+        /// <param name="properties">The IProperties object to pass in</param>
         /// <returns>A boolean of whether the operation completed succesfully or failed</returns>
-        public bool Initialize(IProperties Properties)
+        public bool Initialize(IProperties properties)
         {
             if (StorageMethod == null) return false;
-            ((ICachedStorageMethod<T>)StorageMethod).Initialize(Properties);
+            ((ICachedStorageMethod<T>)StorageMethod).Initialize(properties);
             ((ICachedStorageMethod<T>)StorageMethod).UpdateCache();
             CurrentCache = ((ICachedStorageMethod<T>)StorageMethod).GetCache();
             return true;

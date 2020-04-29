@@ -20,8 +20,8 @@
         /// <summary>
         /// Sets the Cache 
         /// </summary>
-        /// <param name="CacheObject">The CacheObject to set the cache as</param>
-        void SetCache(T CacheObject);
+        /// <param name="cacheObject">The CacheObject to set the cache as</param>
+        void SetCache(T cacheObject);
 
         /// <summary>
         /// Saves the stored cache into the Persistent Storage
@@ -36,7 +36,8 @@
         /// <summary>
         /// Initialize the Cached StorageMethod with Properties
         /// </summary>
-        /// <param name="Properties">The IProperties object to pass in</param>
-        void Initialize(IProperties Properties);
+        /// <param name="properties">The IProperties object to pass in</param>
+        /// <see cref="IProperties"/>
+        void Initialize(IProperties properties);
     }
 }
