@@ -23,6 +23,6 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v1
       with:
         target_branch: gh-pages
-        build_dir: PersistentStorage/_site
+        build_dir: docs/_site
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
