@@ -6,3 +6,13 @@
       href: installation.md
     - name: Quick Start
       href: quickstart.md
+- name: Storage Method
+  items:
+    - name: Base Storage Controller
+      href: storage.md
+    - name: Cached Storage
+      href: cachedstorage.md
+    - name: Non Cached Storage
+      href: noncachedstorage.md
+    - name: Queries
+      href: noncachedqueries.md

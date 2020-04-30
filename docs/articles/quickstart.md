@@ -1,12 +1,12 @@
 ﻿# Quick Start
 
-Before you start, make sure you installed Garamia.PersistentStorage, either through NuGet, or by compiling from source.
+Before you start, make sure you installed `Garamia.PersistentStorage`, either through NuGet, or by compiling from source.
 
 ## Installing a StorageMethod
 
-In order to store data with Garamia.PersistentStorage, you need to install a StorageMethod. StorageMethods allow the data to be stored Persistently, either by writing the data to a file, or by storing it in a database.
+In order to store data with `Garamia.PersistentStorage`, you need to install a StorageMethod. StorageMethods allow the data to be stored persistently.
 
-Two easy StorageMethods to get started with are Garamia.PersistentStorage.CachedJson and Garamia.PersistentStorage.NonCachedJson. For this example, we will be using Garamia.PersistentStorage.CachedJson. So, install it from the NuGet Gallery.
+Two easy StorageMethods to get started with are `Garamia.PersistentStorage.CachedJson` and `Garamia.PersistentStorage.NonCachedJson`. For this example, we will be using `Garamia.PersistentStorage.CachedJson`. So, you need to install it from the NuGet gallery.
 
 ## Creating the root object
 
@@ -21,7 +21,7 @@ class OBJ
 
 ## Initializing and Adding the Storage Method
 
-Garamia.PersistentStorage contains a list of StorageMethods which can be used to switch between different StorageMethods. But first, we need to initialize a CachedPersistentStorage, which acts like a controller between this library and the Storage Method. We pass in the `OBJ` type so the controller knows which type to parse the cache as.
+`Garamia.PersistentStorage` contains a list of StorageMethods which can be used to switch between different StorageMethods. But first, we need to initialize a `CachedPersistentStorage`, which acts like a controller between this library and the Storage Method. We pass in the `OBJ` type so the controller knows which type to parse the cache as.
 
 ```cs
 readonly CachedPersistentStorage<OBJ> Storage = new CachedPersistentStorage<OBJ>();
@@ -35,7 +35,7 @@ Storage.AddStorageMethod(StorageMethod);
 Storage.SelectStorageMethod(StorageMethod);
 ```
 
-Since we are storing as a JSON file, we need to pass in Properties.
+Since we are storing as a JSON file, we need to pass in Properties. For this Cached Json implementation, the properties are stored as `JsonProperties`.
 
 ```cs
 JSONProperties properties = new JSONProperties
@@ -71,7 +71,7 @@ int Number = 100
 Storage.CurrentCache.number = Number;
 ```
 
-Then, save the cache into the file with `Storage.SaveState()`. In case some outside source modified the file, it is good practice to also call `UpdateCache()` after saving. There is a shortcut mehtod called `SaveUpdate()`.
+Then, save the cache into the file with `Storage.SaveState()`. In case some outside source modified the file, it is good practice to also call `UpdateCache()` after saving. There is a shortcut method called `SaveUpdate()`.
 
 ```cs
 Storage.SaveUpdate();
