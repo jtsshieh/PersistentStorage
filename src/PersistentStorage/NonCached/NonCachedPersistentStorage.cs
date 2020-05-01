@@ -31,63 +31,14 @@
         }
 
         /// <summary>
-        /// Set a string value
+        /// Set a value
         /// </summary>
+        /// <typeparam name="B">The type of the value being set/typeparam>
         /// <param name="query">The query</param>
         /// <param name="value">The value to set the object as</param>
-        public void SetString(string query, string value)
+        public void SetValue<B>(string query, B value)
         {
-            ((INonCachedStorageMethod<T>)StorageMethod).SetString(query, value);
-        }
-
-        /// <summary>
-        /// Set an integer value
-        /// </summary>
-        /// <param name="query">The query</param>
-        /// <param name="value">The value to set the object as</param>
-        public void SetInt(string query, int value)
-        {
-            ((INonCachedStorageMethod<T>)StorageMethod).SetInt(query, value);
-        }
-
-        /// <summary>
-        /// Set a boolean value
-        /// </summary>
-        /// <param name="query">The query</param>
-        /// <param name="value">The value to set the object as</param>
-        public void SetBool(string query, bool value)
-        {
-            ((INonCachedStorageMethod<T>)StorageMethod).SetBool(query, value);
-        }
-       
-        /// <summary>
-        /// Get a string value
-        /// </summary>
-        /// <param name="query">The query</param>
-        /// <returns>The value as a string</returns>
-        public string GetString(string query)
-        {
-            return ((INonCachedStorageMethod<T>)StorageMethod).GetString(query);
-        }
-
-        /// <summary>
-        /// Get an integer value
-        /// </summary>
-        /// <param name="query">The query</param>
-        /// <returns>The value as an integer</returns>
-        public int GetInt(string query)
-        {
-            return ((INonCachedStorageMethod<T>)StorageMethod).GetInt(query);
-        }
-
-        /// <summary>
-        /// Get a boolean value
-        /// </summary>
-        /// <param name="query">The query</param>
-        /// <returns>The value as a boolean</returns>
-        public bool GetBool(string query)
-        {
-            return ((INonCachedStorageMethod<T>)StorageMethod).GetBool(query);
+            ((INonCachedStorageMethod<T>)StorageMethod).SetValue<B>(query, value);
         }
 
         /// <summary>

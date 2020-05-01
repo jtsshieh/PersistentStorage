@@ -1,6 +1,6 @@
 # Queries
 
-Queries allow you to access and update data from an object without a cache.
+Queries allow you to access and update data from an object without a cache. Implementations may specify custom queries if they desire. Therefore, it may be necesary to consult the documentation of your Storage Method implementation if it uses a custom query. The documentation below represents the `QueryParser` class that comes with Garamia.PersistentStorage.
 
 ## Structure
 
