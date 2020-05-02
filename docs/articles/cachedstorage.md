@@ -4,19 +4,19 @@ A cached storage controller allows you to access data with a cache for easy acce
 
 ## Controller
 
-The `CachedPersistentStorage` controller exposes the methods of the `ICachedStorageMethod`. It extends the base controller class `PersistentStorage`.
+The `CachedStorageController` exposes the methods of the `ICachedStorageMethod`. It extends the base controller class `PersistentStorage`.
 
 ### Initialization
 
 Initializing the controller is as easy as calling the `Initialize` function on the controller. This initializes the selected storage method. Depending on the Storage Method, it will complete tasks such as loading the cache or creating a file. It will also load the cache into the `CurrentCache` property.
 
-Some Storage Methods need to be initialized with properties. In that case, you will need to instantiate the properties class for that storage method, fill out any necessary information, and then pass that class as a parameter in `Initialize`.
+Some storage methods need to be initialized with properties. In that case, you will need to instantiate the properties class for that storage method, fill out any necessary information, and then pass that class as a parameter in `Initialize`.
 
 This method will either return `true` or `false` indicating whether a StorageMethod was selected.
 
 ### Accessing data
 
-The `CachedPersistentStorage` controller contains a cache that is parsed as the type that is passed as a type param when instantiating the base object. This cache is the property `CurrentCache`. It is only updated when the controller is initialized, the `SaveState` function is called, or when `UpdateCache` is called. So all you have to do to access data is to access the `CurrentCache` property on the controller.
+The `CachedStorageController` controller contains a cache that is parsed as the type that is passed as a type param when instantiating the base object. This cache is the property `CurrentCache`. It is only updated when the controller is initialized, the `SaveState` function is called, or when `UpdateCache` is called. So all you have to do to access data is to access the `CurrentCache` property on the controller.
 
 ### Updating data
 

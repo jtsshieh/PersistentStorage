@@ -12,7 +12,7 @@
       href: storage.md
     - name: Cached Storage
       href: cachedstorage.md
-    - name: Non Cached Storage
-      href: noncachedstorage.md
+    - name: Queried Storage
+      href: queriedstorage.md
     - name: Queries
-      href: noncachedqueries.md
+      href: queries.md

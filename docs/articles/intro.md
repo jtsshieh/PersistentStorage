@@ -6,5 +6,5 @@ Garamia.PersistentStorage is a library that can be used by .NET developers to st
 
 ## Features
 
-- Garamia.PersistentStorage offers a Cached and Non-Cached base controllers
-- Garamia.PersistentStorage offers interchangable Storage Methods
+- Use a queried storage controller, or a cached storage controller
+- Switch between different storage methods

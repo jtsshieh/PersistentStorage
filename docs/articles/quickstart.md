@@ -6,11 +6,11 @@ Before you start, make sure you installed `Garamia.PersistentStorage`, either th
 
 In order to store data with `Garamia.PersistentStorage`, you need to install a StorageMethod. StorageMethods allow the data to be stored persistently.
 
-Two easy StorageMethods to get started with are `Garamia.PersistentStorage.CachedJson` and `Garamia.PersistentStorage.NonCachedJson`. For this example, we will be using `Garamia.PersistentStorage.CachedJson`. So, you need to install it from the NuGet gallery.
+Two easy StorageMethods to get started with are `Garamia.PersistentStorage.CachedJson` and `Garamia.PersistentStorage.NonCachedJson`. For this example, we will be using `Garamia.PersistentStorage.CachedJson`. So, you need to install it from the NuGet Gallery.
 
 ## Creating the root object
 
-Garamia.PersistentStorage stores data in objects. These objects represented in C# are classes. For this example, we can create a class named `OBJ` and then create a field in the class named `number` where we can store a number.
+`Garamia.PersistentStorage` stores data in objects. These objects represented in C# are classes. For this example, we can create a class named `OBJ` and then create a field in the class named `number` where we can store a number.
 
 ```cs
 class OBJ
@@ -21,10 +21,10 @@ class OBJ
 
 ## Initializing and Adding the Storage Method
 
-`Garamia.PersistentStorage` contains a list of StorageMethods which can be used to switch between different StorageMethods. But first, we need to initialize a `CachedPersistentStorage`, which acts like a controller between this library and the Storage Method. We pass in the `OBJ` type so the controller knows which type to parse the cache as.
+`Garamia.PersistentStorage` contains a list of StorageMethods which can be used to switch between different StorageMethods. But first, we need to initialize a `CachedStorageController`, which acts like a controller between this library and the Storage Method. We pass in the `OBJ` type so the controller knows which type to parse the cache as.
 
 ```cs
-readonly CachedPersistentStorage<OBJ> Storage = new CachedPersistentStorage<OBJ>();
+readonly CachedStorageController<OBJ> Storage = new CachedStorageController<OBJ>();
 ```
 
 Then to add the Storage Method, we can create the StorageMethod and select it.
