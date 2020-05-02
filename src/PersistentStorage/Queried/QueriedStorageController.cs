@@ -57,13 +57,12 @@
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
         /// <param name="item">The item being inserted into the array</param>
         /// <param name="index">The index to insert the item into</param>
         /// <returns>The object with the item inserted</returns>
-        public object InsertArray<B>(string query, object rootObject, B item, int index)
+        public object InsertArray<B>(string query, B item, int index)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).InsertArray<B>(query, rootObject, item, index);
+            return ((IQueriedStorageMethod<T>)StorageMethod).InsertArray<B>(query, item, index);
         }
 
         /// <summary>
@@ -71,12 +70,11 @@
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
         /// <param name="item">The item being pushed into the array</param>
         /// <returns>The object with the item pushed</returns>
-        public object PushArray<B>(string query, object rootObject, B item)
+        public object PushArray<B>(string query, B item)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).PushArray<B>(query, rootObject, item);
+            return ((IQueriedStorageMethod<T>)StorageMethod).PushArray<B>(query, item);
         }
 
         /// <summary>
@@ -84,12 +82,11 @@
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
         /// <param name="index">The index of the item that needs to be removed</param>
         /// <returns>The object with the item removed</returns>
-        public object RemoveAtArray<B>(string query, object rootObject, int index)
+        public object RemoveAtArray<B>(string query, int index)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).RemoveAtArray<B>(query, rootObject, index);
+            return ((IQueriedStorageMethod<T>)StorageMethod).RemoveAtArray<B>(query, index);
         }
 
         /// <summary>
@@ -97,12 +94,11 @@
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object ot set the value on</param>
         /// <param name="item">The item that needs to be removed</param>
         /// <returns>The object with the item removed</returns>
-        public object RemoveArray<B>(string query, object rootObject, B item)
+        public object RemoveArray<B>(string query, B item)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).RemoveArray<B>(query, rootObject, item);
+            return ((IQueriedStorageMethod<T>)StorageMethod).RemoveArray<B>(query, item);
         }
     }
 }

@@ -33,40 +33,32 @@
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
         /// <param name="item">The item being inserted into the array</param>
         /// <param name="index">The index to insert the item into</param>
-        /// <returns>The object with the item inserted</returns>
-        object InsertArray<B>(string query, object rootObject, B item, int index);
+        void InsertArray<B>(string query, B item, int index);
 
         /// <summary>
         /// Push an item into an array
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
         /// <param name="item">The item being pushed into the array</param>
-        /// <returns>The object with the item pushed</returns>
-        object PushArray<B>(string query, object rootObject, B item);
+        void PushArray<B>(string query, B item);
 
         /// <summary>
         /// Remove an item from an array by its index
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
         /// <param name="index">The index of the item that needs to be removed</param>
-        /// <returns>The object with the item removed</returns>
-        object RemoveAtArray<B>(string query, object rootObject, int index);
+        void RemoveAtArray<B>(string query, int index);
 
         /// <summary>
         /// Remove an item from an array
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object ot set the value on</param>
         /// <param name="item">The item that needs to be removed</param>
-        /// <returns>The object with the item removed</returns>
-        object RemoveArray<B>(string query, object rootObject, B item);
+        void RemoveArray<B>(string query, B item);
     }
 }
