@@ -10,7 +10,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/jtsshieh/PersistentStorage</RepositoryUrl>
     <RepositoryType></RepositoryType>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
