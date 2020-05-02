@@ -59,10 +59,9 @@
         /// <param name="query">The query selecting an array</param>
         /// <param name="item">The item being inserted into the array</param>
         /// <param name="index">The index to insert the item into</param>
-        /// <returns>The object with the item inserted</returns>
-        public object InsertArray<B>(string query, B item, int index)
+        public void InsertArray<B>(string query, B item, int index)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).InsertArray<B>(query, item, index);
+            ((IQueriedStorageMethod<T>)StorageMethod).InsertArray(query, item, index);
         }
 
         /// <summary>
@@ -71,10 +70,9 @@
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
         /// <param name="item">The item being pushed into the array</param>
-        /// <returns>The object with the item pushed</returns>
-        public object PushArray<B>(string query, B item)
+        public void PushArray<B>(string query, B item)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).PushArray<B>(query, item);
+            ((IQueriedStorageMethod<T>)StorageMethod).PushArray(query, item);
         }
 
         /// <summary>
@@ -83,10 +81,9 @@
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
         /// <param name="index">The index of the item that needs to be removed</param>
-        /// <returns>The object with the item removed</returns>
-        public object RemoveAtArray<B>(string query, int index)
+        public void RemoveAtArray<B>(string query, int index)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).RemoveAtArray<B>(query, index);
+            ((IQueriedStorageMethod<T>)StorageMethod).RemoveAtArray<B>(query, index);
         }
 
         /// <summary>
@@ -95,10 +92,9 @@
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
         /// <param name="item">The item that needs to be removed</param>
-        /// <returns>The object with the item removed</returns>
-        public object RemoveArray<B>(string query, B item)
+        public void RemoveArray<B>(string query, B item)
         {
-            return ((IQueriedStorageMethod<T>)StorageMethod).RemoveArray<B>(query, item);
+            ((IQueriedStorageMethod<T>)StorageMethod).RemoveArray(query, item);
         }
     }
 }
