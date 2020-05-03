@@ -34,7 +34,7 @@
         void UpdateCache();
 
         /// <summary>
-        /// Initialize the Cached StorageMethod with Properties
+        /// Initializes the Cached StorageMethod with Properties
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
         /// <see cref="IProperties"/>

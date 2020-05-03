@@ -7,14 +7,14 @@
     public interface IQueriedStorageMethod<T> : IStorageMethod<T>
     {
         /// <summary>
-        /// Initialize the queried storage method with properties
+        /// Initializes the queried storage method with properties
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
         /// <see cref="IProperties"/>
         void Initialize(IProperties properties);
 
         /// <summary>
-        /// Set a value
+        /// Sets a value
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query</param>
@@ -22,7 +22,7 @@
         void SetValue<B>(string query, B value);
 
         /// <summary>
-        /// Get a value
+        /// Gets a value
         /// </summary>
         /// <typeparam name="B">They type to parse the value as</typeparam>
         /// <param name="query">The query</param>
@@ -39,7 +39,7 @@
         void InsertArray<B>(string query, B item, int index);
 
         /// <summary>
-        /// Push an item into an array
+        /// Pushes an item into an array
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
@@ -47,7 +47,7 @@
         void PushArray<B>(string query, B item);
 
         /// <summary>
-        /// Remove an item from an array by its index
+        /// Removes an item from an array by its index
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
@@ -55,7 +55,7 @@
         void RemoveAtArray<B>(string query, int index);
 
         /// <summary>
-        /// Remove an item from an array
+        /// Removes an item from an array
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>

@@ -8,7 +8,7 @@
     {
 
         /// <summary>
-        /// Initialize the Selected queried Persistent Storage Method
+        /// Initializes the Selected queried Persistent Storage Method
         /// </summary>
         /// <returns>A boolean of whether the operation completed successfully or failed</returns>
         public bool Initialize()
@@ -19,7 +19,7 @@
         }
 
         /// <summary>
-        /// Initialize the Selected queried Persistent Storage Method with Properties 
+        /// Initializes the Selected queried Persistent Storage Method with Properties 
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
         /// <returns>A boolean of whether the operation completed successfully or failed</returns>
@@ -31,7 +31,7 @@
         }
 
         /// <summary>
-        /// Set a value
+        /// Sets a value
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query</param>
@@ -42,7 +42,7 @@
         }
 
         /// <summary>
-        /// Get a value
+        /// Gets a value
         /// </summary>
         /// <typeparam name="B">They type to parse the value as</typeparam>
         /// <param name="query">The query</param>
@@ -65,7 +65,7 @@
         }
 
         /// <summary>
-        /// Push an item into an array
+        /// Pushes an item into an array
         /// </summary>
         /// <typeparam name="B">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
@@ -76,7 +76,7 @@
         }
 
         /// <summary>
-        /// Remove an item from an array by its index
+        /// Removes an item from an array by its index
         /// </summary>
         /// <typeparam name="B">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>
@@ -87,7 +87,7 @@
         }
 
         /// <summary>
-        /// Remove an item from an array
+        /// Removes an item from an array
         /// </summary>
         /// <typeparam name="B">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>

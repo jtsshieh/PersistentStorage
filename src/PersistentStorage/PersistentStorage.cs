@@ -9,7 +9,7 @@ namespace PersistentStorage
     public class PersistentStorage<T>
     {
         /// <summary>
-        /// List of Storage Methods
+        /// The list of Storage Methods
         /// </summary>
         public List<IStorageMethod<T>> StorageMethods = new List<IStorageMethod<T>>();
 
@@ -19,7 +19,7 @@ namespace PersistentStorage
         public IStorageMethod<T> StorageMethod;
 
         /// <summary>
-        /// Initialize a new Persistent Storage Controller
+        /// Initializes a new Persistent Storage Controller
         /// </summary>
         /// <param name="StorageMethods">An array of storage methods to add</param>
         public PersistentStorage(params IStorageMethod<T>[] StorageMethods)
@@ -28,7 +28,7 @@ namespace PersistentStorage
         }
 
         /// <summary>
-        /// Add a storage method
+        /// Adds a storage method
         /// </summary>
         /// <param name="StorageMethod">The Storage Method to add</param>
         public void AddStorageMethod(IStorageMethod<T> StorageMethod)

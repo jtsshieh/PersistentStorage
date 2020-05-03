@@ -13,7 +13,7 @@ namespace PersistentStorage.Queried
     public static class QueryParser
     {
         /// <summary>
-        /// Parse a query and then get/add/insert an item
+        /// Parses a query and then get/add/insert an item
         /// </summary>
         /// <typeparam name="T">The type to parse the result as/the type of the value being set</typeparam>
         /// <param name="query">The query</param>
@@ -123,7 +123,7 @@ namespace PersistentStorage.Queried
 
 
         /// <summary>
-        /// Get a value that is filtered using a query
+        /// Gets a value that is filtered using a query
         /// </summary>
         /// <typeparam name="T">The type to parse the result as</typeparam>
         /// <param name="query">The query</param>
@@ -135,7 +135,7 @@ namespace PersistentStorage.Queried
         }
 
         /// <summary>
-        /// Set a value that is filtered using a query
+        /// Sets a value that is filtered using a query
         /// </summary>
         /// <typeparam name="T">The type of the value that is being set</typeparam>
         /// <param name="query">The query</param>
@@ -162,7 +162,7 @@ namespace PersistentStorage.Queried
         }
 
         /// <summary>
-        /// Push an item into an array
+        /// Pushesan item into an array
         /// </summary>
         /// <typeparam name="T">The type of the value being set</typeparam>
         /// <param name="query">The query selecting an array</param>
@@ -175,7 +175,7 @@ namespace PersistentStorage.Queried
         }
 
         /// <summary>
-        /// Remove an item from an array by its index
+        /// Removes an item from an array by its index
         /// </summary>
         /// <typeparam name="T">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>
@@ -190,7 +190,7 @@ namespace PersistentStorage.Queried
         }
 
         /// <summary>
-        /// Remove an item from an array
+        /// Removes an item from an array
         /// </summary>
         /// <typeparam name="T">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>

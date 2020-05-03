@@ -12,7 +12,7 @@
         public T CurrentCache;
 
         /// <summary>
-        /// Initialize the Selected Cached Persistent Storage Method
+        /// Initializs the Selected Cached Persistent Storage Method
         /// </summary>
         /// <returns>A boolean of whether the operation completed successfully or failed</returns>
         public bool Initialize()
@@ -25,7 +25,7 @@
         }
 
         /// <summary>
-        /// Initialize the Selected Cached Persistent Storage Method with Properties 
+        /// Initializes the Selected Cached Persistent Storage Method with Properties 
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
         /// <see cref="IProperties"/>
@@ -40,7 +40,7 @@
         }
 
         /// <summary>
-        /// Save the Cache into the Persistent Storage
+        /// Saves the Cache into the Persistent Storage
         /// </summary>
         public void SaveState()
         {
@@ -49,7 +49,7 @@
         }
 
         /// <summary>
-        /// Update the Cache with the contents of the Persistent Storage
+        /// Updates the Cache with the contents of the Persistent Storage
         /// </summary>
         public void UpdateCache()
         {
@@ -58,7 +58,7 @@
         }
 
         /// <summary>
-        /// Save and Update the Cache
+        /// Saves and Updates the Cache
         /// <see cref="SaveState"/>
         /// <see cref="UpdateCache"/>
         /// </summary>
