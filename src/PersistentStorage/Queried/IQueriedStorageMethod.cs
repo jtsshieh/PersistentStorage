@@ -10,6 +10,7 @@
         /// Initialize the queried storage method with properties
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
+        /// <see cref="IProperties"/>
         void Initialize(IProperties properties);
 
         /// <summary>

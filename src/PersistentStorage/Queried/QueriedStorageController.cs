@@ -10,7 +10,7 @@
         /// <summary>
         /// Initialize the Selected queried Persistent Storage Method
         /// </summary>
-        /// <returns>A boolean of whether the operation completed succesfully or failed</returns>
+        /// <returns>A boolean of whether the operation completed successfully or failed</returns>
         public bool Initialize()
         {
             if (StorageMethod == null) return false;
@@ -22,7 +22,7 @@
         /// Initialize the Selected queried Persistent Storage Method with Properties 
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
-        /// <returns>A boolean of whether the operation completed succesfully or failed</returns>
+        /// <returns>A boolean of whether the operation completed successfully or failed</returns>
         public bool Initialize(IProperties properties)
         {
             if (StorageMethod == null) return false;
@@ -78,7 +78,7 @@
         /// <summary>
         /// Remove an item from an array by its index
         /// </summary>
-        /// <typeparam name="B">The type of the value being set</typeparam>
+        /// <typeparam name="B">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>
         /// <param name="index">The index of the item that needs to be removed</param>
         public void RemoveAtArray<B>(string query, int index)
@@ -89,7 +89,7 @@
         /// <summary>
         /// Remove an item from an array
         /// </summary>
-        /// <typeparam name="B">The type of the value being set</typeparam>
+        /// <typeparam name="B">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>
         /// <param name="item">The item that needs to be removed</param>
         public void RemoveArray<B>(string query, B item)

@@ -14,7 +14,7 @@
         /// <summary>
         /// Initialize the Selected Cached Persistent Storage Method
         /// </summary>
-        /// <returns>A boolean of whether the operation completed succesfully or failed</returns>
+        /// <returns>A boolean of whether the operation completed successfully or failed</returns>
         public bool Initialize()
         {
             if (StorageMethod == null) return false;
@@ -25,10 +25,11 @@
         }
 
         /// <summary>
-        /// Initialize the Selected Cache Persistent Storage Method with Properties 
+        /// Initialize the Selected Cached Persistent Storage Method with Properties 
         /// </summary>
         /// <param name="properties">The IProperties object to pass in</param>
-        /// <returns>A boolean of whether the operation completed succesfully or failed</returns>
+        /// <see cref="IProperties"/>
+        /// <returns>A boolean of whether the operation completed successfully or failed</returns>
         public bool Initialize(IProperties properties)
         {
             if (StorageMethod == null) return false;

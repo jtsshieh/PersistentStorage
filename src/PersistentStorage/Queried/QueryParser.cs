@@ -20,7 +20,7 @@ namespace PersistentStorage.Queried
         /// <param name="rootObject">The object to search/preform the operation on</param>
         /// <param name="value">The value to set</param>
         /// <param name="index">The index if adding to an array -- -1 for no array, -2 for pushing to an array.</param>
-        /// <returns></returns>
+        /// <returns>The object with updates performed/the object that was being searched for</returns>
         static object ParseQuery<T>(string query, object rootObject, T value = default, int index = -1)
         {
             // Split the query into parts
@@ -128,7 +128,7 @@ namespace PersistentStorage.Queried
         /// <typeparam name="T">The type to parse the result as</typeparam>
         /// <param name="query">The query</param>
         /// <param name="rootObject">The object to search for the result in</param>
-        /// <returns>The value the query yielded, parsed the type specified in T</returns>
+        /// <returns>The value the query yielded, parsed into the type specified in T</returns>
         public static T GetValue<T>(string query, object rootObject)
         {
             return (T)ParseQuery(query, rootObject, Activator.CreateInstance<T>());
@@ -177,9 +177,9 @@ namespace PersistentStorage.Queried
         /// <summary>
         /// Remove an item from an array by its index
         /// </summary>
-        /// <typeparam name="T">The type of the value being set</typeparam>
+        /// <typeparam name="T">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object to set the value on</param>
+        /// <param name="rootObject">The object to remove the value on</param>
         /// <param name="index">The index of the item that needs to be removed</param>
         /// <returns>The object with the item removed</returns>
         public static object RemoveAtArray<T>(string query, object rootObject, int index)
@@ -192,9 +192,9 @@ namespace PersistentStorage.Queried
         /// <summary>
         /// Remove an item from an array
         /// </summary>
-        /// <typeparam name="T">The type of the value being set</typeparam>
+        /// <typeparam name="T">The type of the value being removed</typeparam>
         /// <param name="query">The query selecting an array</param>
-        /// <param name="rootObject">The object ot set the value on</param>
+        /// <param name="rootObject">The object to remove the value on</param>
         /// <param name="item">The item that needs to be removed</param>
         /// <returns>The object with the item removed</returns>
         public static object RemoveArray<T>(string query, object rootObject, T item)
