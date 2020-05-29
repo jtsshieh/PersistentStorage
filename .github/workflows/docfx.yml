@@ -1,21 +1,23 @@
-name: DocFX
+name: Deploy Documentation
 
 on:
   push:
     branches: [ master ]
   
 jobs:
-  DocFX:
+  docfx:
   
     runs-on: windows-latest
     
     steps:
     - uses: actions/checkout@v1
-    - name: setup-msbuild
+      
+    - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
     
     - name: Restore Dependencies
       run: msbuild -t:restore
+      
     - name: Build Project
       run: msbuild PersistentStorage.sln
     
