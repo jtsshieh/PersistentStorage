@@ -1,0 +1,739 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: PersistentStorage
+  name: PersistentStorage
+  href: api/PersistentStorage.html
+  commentId: N:PersistentStorage
+  fullName: PersistentStorage
+  nameWithType: PersistentStorage
+- uid: PersistentStorage.Cached
+  name: PersistentStorage.Cached
+  href: api/PersistentStorage.Cached.html
+  commentId: N:PersistentStorage.Cached
+  fullName: PersistentStorage.Cached
+  nameWithType: PersistentStorage.Cached
+- uid: PersistentStorage.Cached.CachedStorageController`1
+  name: CachedStorageController<T>
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html
+  commentId: T:PersistentStorage.Cached.CachedStorageController`1
+  name.vb: CachedStorageController(Of T)
+  fullName: PersistentStorage.Cached.CachedStorageController<T>
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T)
+  nameWithType: CachedStorageController<T>
+  nameWithType.vb: CachedStorageController(Of T)
+- uid: PersistentStorage.Cached.CachedStorageController`1.CurrentCache
+  name: CurrentCache
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_CurrentCache
+  commentId: F:PersistentStorage.Cached.CachedStorageController`1.CurrentCache
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.CurrentCache
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).CurrentCache
+  nameWithType: CachedStorageController<T>.CurrentCache
+  nameWithType.vb: CachedStorageController(Of T).CurrentCache
+- uid: PersistentStorage.Cached.CachedStorageController`1.Initialize
+  name: Initialize()
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_Initialize
+  commentId: M:PersistentStorage.Cached.CachedStorageController`1.Initialize
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.Initialize()
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).Initialize()
+  nameWithType: CachedStorageController<T>.Initialize()
+  nameWithType.vb: CachedStorageController(Of T).Initialize()
+- uid: PersistentStorage.Cached.CachedStorageController`1.Initialize(PersistentStorage.IProperties)
+  name: Initialize(IProperties)
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_Initialize_PersistentStorage_IProperties_
+  commentId: M:PersistentStorage.Cached.CachedStorageController`1.Initialize(PersistentStorage.IProperties)
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.Initialize(PersistentStorage.IProperties)
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).Initialize(PersistentStorage.IProperties)
+  nameWithType: CachedStorageController<T>.Initialize(IProperties)
+  nameWithType.vb: CachedStorageController(Of T).Initialize(IProperties)
+- uid: PersistentStorage.Cached.CachedStorageController`1.Initialize*
+  name: Initialize
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_Initialize_
+  commentId: Overload:PersistentStorage.Cached.CachedStorageController`1.Initialize
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.Initialize
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).Initialize
+  nameWithType: CachedStorageController<T>.Initialize
+  nameWithType.vb: CachedStorageController(Of T).Initialize
+- uid: PersistentStorage.Cached.CachedStorageController`1.SaveState
+  name: SaveState()
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_SaveState
+  commentId: M:PersistentStorage.Cached.CachedStorageController`1.SaveState
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.SaveState()
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).SaveState()
+  nameWithType: CachedStorageController<T>.SaveState()
+  nameWithType.vb: CachedStorageController(Of T).SaveState()
+- uid: PersistentStorage.Cached.CachedStorageController`1.SaveState*
+  name: SaveState
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_SaveState_
+  commentId: Overload:PersistentStorage.Cached.CachedStorageController`1.SaveState
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.SaveState
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).SaveState
+  nameWithType: CachedStorageController<T>.SaveState
+  nameWithType.vb: CachedStorageController(Of T).SaveState
+- uid: PersistentStorage.Cached.CachedStorageController`1.SaveUpdate
+  name: SaveUpdate()
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_SaveUpdate
+  commentId: M:PersistentStorage.Cached.CachedStorageController`1.SaveUpdate
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.SaveUpdate()
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).SaveUpdate()
+  nameWithType: CachedStorageController<T>.SaveUpdate()
+  nameWithType.vb: CachedStorageController(Of T).SaveUpdate()
+- uid: PersistentStorage.Cached.CachedStorageController`1.SaveUpdate*
+  name: SaveUpdate
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_SaveUpdate_
+  commentId: Overload:PersistentStorage.Cached.CachedStorageController`1.SaveUpdate
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.SaveUpdate
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).SaveUpdate
+  nameWithType: CachedStorageController<T>.SaveUpdate
+  nameWithType.vb: CachedStorageController(Of T).SaveUpdate
+- uid: PersistentStorage.Cached.CachedStorageController`1.UpdateCache
+  name: UpdateCache()
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_UpdateCache
+  commentId: M:PersistentStorage.Cached.CachedStorageController`1.UpdateCache
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.UpdateCache()
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).UpdateCache()
+  nameWithType: CachedStorageController<T>.UpdateCache()
+  nameWithType.vb: CachedStorageController(Of T).UpdateCache()
+- uid: PersistentStorage.Cached.CachedStorageController`1.UpdateCache*
+  name: UpdateCache
+  href: api/PersistentStorage.Cached.CachedStorageController-1.html#PersistentStorage_Cached_CachedStorageController_1_UpdateCache_
+  commentId: Overload:PersistentStorage.Cached.CachedStorageController`1.UpdateCache
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.CachedStorageController<T>.UpdateCache
+  fullName.vb: PersistentStorage.Cached.CachedStorageController(Of T).UpdateCache
+  nameWithType: CachedStorageController<T>.UpdateCache
+  nameWithType.vb: CachedStorageController(Of T).UpdateCache
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1
+  name: ICachedStorageMethod<T>
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html
+  commentId: T:PersistentStorage.Cached.ICachedStorageMethod`1
+  name.vb: ICachedStorageMethod(Of T)
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T)
+  nameWithType: ICachedStorageMethod<T>
+  nameWithType.vb: ICachedStorageMethod(Of T)
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.CurrentCache
+  name: CurrentCache
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_CurrentCache
+  commentId: P:PersistentStorage.Cached.ICachedStorageMethod`1.CurrentCache
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.CurrentCache
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).CurrentCache
+  nameWithType: ICachedStorageMethod<T>.CurrentCache
+  nameWithType.vb: ICachedStorageMethod(Of T).CurrentCache
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.CurrentCache*
+  name: CurrentCache
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_CurrentCache_
+  commentId: Overload:PersistentStorage.Cached.ICachedStorageMethod`1.CurrentCache
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.CurrentCache
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).CurrentCache
+  nameWithType: ICachedStorageMethod<T>.CurrentCache
+  nameWithType.vb: ICachedStorageMethod(Of T).CurrentCache
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.GetCache
+  name: GetCache()
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_GetCache
+  commentId: M:PersistentStorage.Cached.ICachedStorageMethod`1.GetCache
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.GetCache()
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).GetCache()
+  nameWithType: ICachedStorageMethod<T>.GetCache()
+  nameWithType.vb: ICachedStorageMethod(Of T).GetCache()
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.GetCache*
+  name: GetCache
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_GetCache_
+  commentId: Overload:PersistentStorage.Cached.ICachedStorageMethod`1.GetCache
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.GetCache
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).GetCache
+  nameWithType: ICachedStorageMethod<T>.GetCache
+  nameWithType.vb: ICachedStorageMethod(Of T).GetCache
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.Initialize(PersistentStorage.IProperties)
+  name: Initialize(IProperties)
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_Initialize_PersistentStorage_IProperties_
+  commentId: M:PersistentStorage.Cached.ICachedStorageMethod`1.Initialize(PersistentStorage.IProperties)
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.Initialize(PersistentStorage.IProperties)
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).Initialize(PersistentStorage.IProperties)
+  nameWithType: ICachedStorageMethod<T>.Initialize(IProperties)
+  nameWithType.vb: ICachedStorageMethod(Of T).Initialize(IProperties)
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.Initialize*
+  name: Initialize
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_Initialize_
+  commentId: Overload:PersistentStorage.Cached.ICachedStorageMethod`1.Initialize
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.Initialize
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).Initialize
+  nameWithType: ICachedStorageMethod<T>.Initialize
+  nameWithType.vb: ICachedStorageMethod(Of T).Initialize
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.SaveState
+  name: SaveState()
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_SaveState
+  commentId: M:PersistentStorage.Cached.ICachedStorageMethod`1.SaveState
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.SaveState()
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).SaveState()
+  nameWithType: ICachedStorageMethod<T>.SaveState()
+  nameWithType.vb: ICachedStorageMethod(Of T).SaveState()
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.SaveState*
+  name: SaveState
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_SaveState_
+  commentId: Overload:PersistentStorage.Cached.ICachedStorageMethod`1.SaveState
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.SaveState
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).SaveState
+  nameWithType: ICachedStorageMethod<T>.SaveState
+  nameWithType.vb: ICachedStorageMethod(Of T).SaveState
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.SetCache(`0)
+  name: SetCache(T)
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_SetCache__0_
+  commentId: M:PersistentStorage.Cached.ICachedStorageMethod`1.SetCache(`0)
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.SetCache(T)
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).SetCache(T)
+  nameWithType: ICachedStorageMethod<T>.SetCache(T)
+  nameWithType.vb: ICachedStorageMethod(Of T).SetCache(T)
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.SetCache*
+  name: SetCache
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_SetCache_
+  commentId: Overload:PersistentStorage.Cached.ICachedStorageMethod`1.SetCache
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.SetCache
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).SetCache
+  nameWithType: ICachedStorageMethod<T>.SetCache
+  nameWithType.vb: ICachedStorageMethod(Of T).SetCache
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.UpdateCache
+  name: UpdateCache()
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_UpdateCache
+  commentId: M:PersistentStorage.Cached.ICachedStorageMethod`1.UpdateCache
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.UpdateCache()
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).UpdateCache()
+  nameWithType: ICachedStorageMethod<T>.UpdateCache()
+  nameWithType.vb: ICachedStorageMethod(Of T).UpdateCache()
+- uid: PersistentStorage.Cached.ICachedStorageMethod`1.UpdateCache*
+  name: UpdateCache
+  href: api/PersistentStorage.Cached.ICachedStorageMethod-1.html#PersistentStorage_Cached_ICachedStorageMethod_1_UpdateCache_
+  commentId: Overload:PersistentStorage.Cached.ICachedStorageMethod`1.UpdateCache
+  isSpec: "True"
+  fullName: PersistentStorage.Cached.ICachedStorageMethod<T>.UpdateCache
+  fullName.vb: PersistentStorage.Cached.ICachedStorageMethod(Of T).UpdateCache
+  nameWithType: ICachedStorageMethod<T>.UpdateCache
+  nameWithType.vb: ICachedStorageMethod(Of T).UpdateCache
+- uid: PersistentStorage.IProperties
+  name: IProperties
+  href: api/PersistentStorage.IProperties.html
+  commentId: T:PersistentStorage.IProperties
+  fullName: PersistentStorage.IProperties
+  nameWithType: IProperties
+- uid: PersistentStorage.IStorageMethod`1
+  name: IStorageMethod<T>
+  href: api/PersistentStorage.IStorageMethod-1.html
+  commentId: T:PersistentStorage.IStorageMethod`1
+  name.vb: IStorageMethod(Of T)
+  fullName: PersistentStorage.IStorageMethod<T>
+  fullName.vb: PersistentStorage.IStorageMethod(Of T)
+  nameWithType: IStorageMethod<T>
+  nameWithType.vb: IStorageMethod(Of T)
+- uid: PersistentStorage.IStorageMethod`1.Initialize
+  name: Initialize()
+  href: api/PersistentStorage.IStorageMethod-1.html#PersistentStorage_IStorageMethod_1_Initialize
+  commentId: M:PersistentStorage.IStorageMethod`1.Initialize
+  fullName: PersistentStorage.IStorageMethod<T>.Initialize()
+  fullName.vb: PersistentStorage.IStorageMethod(Of T).Initialize()
+  nameWithType: IStorageMethod<T>.Initialize()
+  nameWithType.vb: IStorageMethod(Of T).Initialize()
+- uid: PersistentStorage.IStorageMethod`1.Initialize*
+  name: Initialize
+  href: api/PersistentStorage.IStorageMethod-1.html#PersistentStorage_IStorageMethod_1_Initialize_
+  commentId: Overload:PersistentStorage.IStorageMethod`1.Initialize
+  isSpec: "True"
+  fullName: PersistentStorage.IStorageMethod<T>.Initialize
+  fullName.vb: PersistentStorage.IStorageMethod(Of T).Initialize
+  nameWithType: IStorageMethod<T>.Initialize
+  nameWithType.vb: IStorageMethod(Of T).Initialize
+- uid: PersistentStorage.IStorageMethod`1.Name
+  name: Name
+  href: api/PersistentStorage.IStorageMethod-1.html#PersistentStorage_IStorageMethod_1_Name
+  commentId: P:PersistentStorage.IStorageMethod`1.Name
+  fullName: PersistentStorage.IStorageMethod<T>.Name
+  fullName.vb: PersistentStorage.IStorageMethod(Of T).Name
+  nameWithType: IStorageMethod<T>.Name
+  nameWithType.vb: IStorageMethod(Of T).Name
+- uid: PersistentStorage.IStorageMethod`1.Name*
+  name: Name
+  href: api/PersistentStorage.IStorageMethod-1.html#PersistentStorage_IStorageMethod_1_Name_
+  commentId: Overload:PersistentStorage.IStorageMethod`1.Name
+  isSpec: "True"
+  fullName: PersistentStorage.IStorageMethod<T>.Name
+  fullName.vb: PersistentStorage.IStorageMethod(Of T).Name
+  nameWithType: IStorageMethod<T>.Name
+  nameWithType.vb: IStorageMethod(Of T).Name
+- uid: PersistentStorage.PersistentStorage`1
+  name: PersistentStorage<T>
+  href: api/PersistentStorage.PersistentStorage-1.html
+  commentId: T:PersistentStorage.PersistentStorage`1
+  name.vb: PersistentStorage(Of T)
+  fullName: PersistentStorage.PersistentStorage<T>
+  fullName.vb: PersistentStorage.PersistentStorage(Of T)
+  nameWithType: PersistentStorage<T>
+  nameWithType.vb: PersistentStorage(Of T)
+- uid: PersistentStorage.PersistentStorage`1.#ctor(PersistentStorage.IStorageMethod{`0}[])
+  name: PersistentStorage(IStorageMethod<T>[])
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1__ctor_PersistentStorage_IStorageMethod__0____
+  commentId: M:PersistentStorage.PersistentStorage`1.#ctor(PersistentStorage.IStorageMethod{`0}[])
+  name.vb: PersistentStorage(IStorageMethod(Of T)())
+  fullName: PersistentStorage.PersistentStorage<T>.PersistentStorage(PersistentStorage.IStorageMethod<T>[])
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).PersistentStorage(PersistentStorage.IStorageMethod(Of T)())
+  nameWithType: PersistentStorage<T>.PersistentStorage(IStorageMethod<T>[])
+  nameWithType.vb: PersistentStorage(Of T).PersistentStorage(IStorageMethod(Of T)())
+- uid: PersistentStorage.PersistentStorage`1.#ctor*
+  name: PersistentStorage
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1__ctor_
+  commentId: Overload:PersistentStorage.PersistentStorage`1.#ctor
+  isSpec: "True"
+  fullName: PersistentStorage.PersistentStorage<T>.PersistentStorage
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).PersistentStorage
+  nameWithType: PersistentStorage<T>.PersistentStorage
+  nameWithType.vb: PersistentStorage(Of T).PersistentStorage
+- uid: PersistentStorage.PersistentStorage`1.AddStorageMethod(PersistentStorage.IStorageMethod{`0})
+  name: AddStorageMethod(IStorageMethod<T>)
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_AddStorageMethod_PersistentStorage_IStorageMethod__0__
+  commentId: M:PersistentStorage.PersistentStorage`1.AddStorageMethod(PersistentStorage.IStorageMethod{`0})
+  name.vb: AddStorageMethod(IStorageMethod(Of T))
+  fullName: PersistentStorage.PersistentStorage<T>.AddStorageMethod(PersistentStorage.IStorageMethod<T>)
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).AddStorageMethod(PersistentStorage.IStorageMethod(Of T))
+  nameWithType: PersistentStorage<T>.AddStorageMethod(IStorageMethod<T>)
+  nameWithType.vb: PersistentStorage(Of T).AddStorageMethod(IStorageMethod(Of T))
+- uid: PersistentStorage.PersistentStorage`1.AddStorageMethod*
+  name: AddStorageMethod
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_AddStorageMethod_
+  commentId: Overload:PersistentStorage.PersistentStorage`1.AddStorageMethod
+  isSpec: "True"
+  fullName: PersistentStorage.PersistentStorage<T>.AddStorageMethod
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).AddStorageMethod
+  nameWithType: PersistentStorage<T>.AddStorageMethod
+  nameWithType.vb: PersistentStorage(Of T).AddStorageMethod
+- uid: PersistentStorage.PersistentStorage`1.SelectStorageMethod(PersistentStorage.IStorageMethod{`0})
+  name: SelectStorageMethod(IStorageMethod<T>)
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_SelectStorageMethod_PersistentStorage_IStorageMethod__0__
+  commentId: M:PersistentStorage.PersistentStorage`1.SelectStorageMethod(PersistentStorage.IStorageMethod{`0})
+  name.vb: SelectStorageMethod(IStorageMethod(Of T))
+  fullName: PersistentStorage.PersistentStorage<T>.SelectStorageMethod(PersistentStorage.IStorageMethod<T>)
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).SelectStorageMethod(PersistentStorage.IStorageMethod(Of T))
+  nameWithType: PersistentStorage<T>.SelectStorageMethod(IStorageMethod<T>)
+  nameWithType.vb: PersistentStorage(Of T).SelectStorageMethod(IStorageMethod(Of T))
+- uid: PersistentStorage.PersistentStorage`1.SelectStorageMethod(System.String)
+  name: SelectStorageMethod(String)
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_SelectStorageMethod_System_String_
+  commentId: M:PersistentStorage.PersistentStorage`1.SelectStorageMethod(System.String)
+  fullName: PersistentStorage.PersistentStorage<T>.SelectStorageMethod(System.String)
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).SelectStorageMethod(System.String)
+  nameWithType: PersistentStorage<T>.SelectStorageMethod(String)
+  nameWithType.vb: PersistentStorage(Of T).SelectStorageMethod(String)
+- uid: PersistentStorage.PersistentStorage`1.SelectStorageMethod*
+  name: SelectStorageMethod
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_SelectStorageMethod_
+  commentId: Overload:PersistentStorage.PersistentStorage`1.SelectStorageMethod
+  isSpec: "True"
+  fullName: PersistentStorage.PersistentStorage<T>.SelectStorageMethod
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).SelectStorageMethod
+  nameWithType: PersistentStorage<T>.SelectStorageMethod
+  nameWithType.vb: PersistentStorage(Of T).SelectStorageMethod
+- uid: PersistentStorage.PersistentStorage`1.StorageMethod
+  name: StorageMethod
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_StorageMethod
+  commentId: F:PersistentStorage.PersistentStorage`1.StorageMethod
+  fullName: PersistentStorage.PersistentStorage<T>.StorageMethod
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).StorageMethod
+  nameWithType: PersistentStorage<T>.StorageMethod
+  nameWithType.vb: PersistentStorage(Of T).StorageMethod
+- uid: PersistentStorage.PersistentStorage`1.StorageMethods
+  name: StorageMethods
+  href: api/PersistentStorage.PersistentStorage-1.html#PersistentStorage_PersistentStorage_1_StorageMethods
+  commentId: F:PersistentStorage.PersistentStorage`1.StorageMethods
+  fullName: PersistentStorage.PersistentStorage<T>.StorageMethods
+  fullName.vb: PersistentStorage.PersistentStorage(Of T).StorageMethods
+  nameWithType: PersistentStorage<T>.StorageMethods
+  nameWithType.vb: PersistentStorage(Of T).StorageMethods
+- uid: PersistentStorage.Queried
+  name: PersistentStorage.Queried
+  href: api/PersistentStorage.Queried.html
+  commentId: N:PersistentStorage.Queried
+  fullName: PersistentStorage.Queried
+  nameWithType: PersistentStorage.Queried
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1
+  name: IQueriedStorageMethod<T>
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html
+  commentId: T:PersistentStorage.Queried.IQueriedStorageMethod`1
+  name.vb: IQueriedStorageMethod(Of T)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T)
+  nameWithType: IQueriedStorageMethod<T>
+  nameWithType.vb: IQueriedStorageMethod(Of T)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.GetValue*
+  name: GetValue
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_GetValue_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.GetValue
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.GetValue
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).GetValue
+  nameWithType: IQueriedStorageMethod<T>.GetValue
+  nameWithType.vb: IQueriedStorageMethod(Of T).GetValue
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.GetValue``1(System.String)
+  name: GetValue<B>(String)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_GetValue__1_System_String_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.GetValue``1(System.String)
+  name.vb: GetValue(Of B)(String)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.GetValue<B>(System.String)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).GetValue(Of B)(System.String)
+  nameWithType: IQueriedStorageMethod<T>.GetValue<B>(String)
+  nameWithType.vb: IQueriedStorageMethod(Of T).GetValue(Of B)(String)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.Initialize(PersistentStorage.IProperties)
+  name: Initialize(IProperties)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_Initialize_PersistentStorage_IProperties_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.Initialize(PersistentStorage.IProperties)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.Initialize(PersistentStorage.IProperties)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).Initialize(PersistentStorage.IProperties)
+  nameWithType: IQueriedStorageMethod<T>.Initialize(IProperties)
+  nameWithType.vb: IQueriedStorageMethod(Of T).Initialize(IProperties)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.Initialize*
+  name: Initialize
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_Initialize_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.Initialize
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.Initialize
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).Initialize
+  nameWithType: IQueriedStorageMethod<T>.Initialize
+  nameWithType.vb: IQueriedStorageMethod(Of T).Initialize
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.InsertArray*
+  name: InsertArray
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_InsertArray_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.InsertArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.InsertArray
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).InsertArray
+  nameWithType: IQueriedStorageMethod<T>.InsertArray
+  nameWithType.vb: IQueriedStorageMethod(Of T).InsertArray
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.InsertArray``1(System.String,``0,System.Int32)
+  name: InsertArray<B>(String, B, Int32)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_InsertArray__1_System_String___0_System_Int32_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.InsertArray``1(System.String,``0,System.Int32)
+  name.vb: InsertArray(Of B)(String, B, Int32)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.InsertArray<B>(System.String, B, System.Int32)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).InsertArray(Of B)(System.String, B, System.Int32)
+  nameWithType: IQueriedStorageMethod<T>.InsertArray<B>(String, B, Int32)
+  nameWithType.vb: IQueriedStorageMethod(Of T).InsertArray(Of B)(String, B, Int32)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.PushArray*
+  name: PushArray
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_PushArray_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.PushArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.PushArray
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).PushArray
+  nameWithType: IQueriedStorageMethod<T>.PushArray
+  nameWithType.vb: IQueriedStorageMethod(Of T).PushArray
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.PushArray``1(System.String,``0)
+  name: PushArray<B>(String, B)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_PushArray__1_System_String___0_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.PushArray``1(System.String,``0)
+  name.vb: PushArray(Of B)(String, B)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.PushArray<B>(System.String, B)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).PushArray(Of B)(System.String, B)
+  nameWithType: IQueriedStorageMethod<T>.PushArray<B>(String, B)
+  nameWithType.vb: IQueriedStorageMethod(Of T).PushArray(Of B)(String, B)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveArray*
+  name: RemoveArray
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_RemoveArray_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.RemoveArray
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).RemoveArray
+  nameWithType: IQueriedStorageMethod<T>.RemoveArray
+  nameWithType.vb: IQueriedStorageMethod(Of T).RemoveArray
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveArray``1(System.String,``0)
+  name: RemoveArray<B>(String, B)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_RemoveArray__1_System_String___0_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveArray``1(System.String,``0)
+  name.vb: RemoveArray(Of B)(String, B)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.RemoveArray<B>(System.String, B)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).RemoveArray(Of B)(System.String, B)
+  nameWithType: IQueriedStorageMethod<T>.RemoveArray<B>(String, B)
+  nameWithType.vb: IQueriedStorageMethod(Of T).RemoveArray(Of B)(String, B)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveAtArray*
+  name: RemoveAtArray
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_RemoveAtArray_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveAtArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.RemoveAtArray
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).RemoveAtArray
+  nameWithType: IQueriedStorageMethod<T>.RemoveAtArray
+  nameWithType.vb: IQueriedStorageMethod(Of T).RemoveAtArray
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveAtArray``1(System.String,System.Int32)
+  name: RemoveAtArray<B>(String, Int32)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_RemoveAtArray__1_System_String_System_Int32_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.RemoveAtArray``1(System.String,System.Int32)
+  name.vb: RemoveAtArray(Of B)(String, Int32)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.RemoveAtArray<B>(System.String, System.Int32)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).RemoveAtArray(Of B)(System.String, System.Int32)
+  nameWithType: IQueriedStorageMethod<T>.RemoveAtArray<B>(String, Int32)
+  nameWithType.vb: IQueriedStorageMethod(Of T).RemoveAtArray(Of B)(String, Int32)
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.SetValue*
+  name: SetValue
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_SetValue_
+  commentId: Overload:PersistentStorage.Queried.IQueriedStorageMethod`1.SetValue
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.SetValue
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).SetValue
+  nameWithType: IQueriedStorageMethod<T>.SetValue
+  nameWithType.vb: IQueriedStorageMethod(Of T).SetValue
+- uid: PersistentStorage.Queried.IQueriedStorageMethod`1.SetValue``1(System.String,``0)
+  name: SetValue<B>(String, B)
+  href: api/PersistentStorage.Queried.IQueriedStorageMethod-1.html#PersistentStorage_Queried_IQueriedStorageMethod_1_SetValue__1_System_String___0_
+  commentId: M:PersistentStorage.Queried.IQueriedStorageMethod`1.SetValue``1(System.String,``0)
+  name.vb: SetValue(Of B)(String, B)
+  fullName: PersistentStorage.Queried.IQueriedStorageMethod<T>.SetValue<B>(System.String, B)
+  fullName.vb: PersistentStorage.Queried.IQueriedStorageMethod(Of T).SetValue(Of B)(System.String, B)
+  nameWithType: IQueriedStorageMethod<T>.SetValue<B>(String, B)
+  nameWithType.vb: IQueriedStorageMethod(Of T).SetValue(Of B)(String, B)
+- uid: PersistentStorage.Queried.QueriedStorageController`1
+  name: QueriedStorageController<T>
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html
+  commentId: T:PersistentStorage.Queried.QueriedStorageController`1
+  name.vb: QueriedStorageController(Of T)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T)
+  nameWithType: QueriedStorageController<T>
+  nameWithType.vb: QueriedStorageController(Of T)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.GetValue*
+  name: GetValue
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_GetValue_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.GetValue
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.GetValue
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).GetValue
+  nameWithType: QueriedStorageController<T>.GetValue
+  nameWithType.vb: QueriedStorageController(Of T).GetValue
+- uid: PersistentStorage.Queried.QueriedStorageController`1.GetValue``1(System.String)
+  name: GetValue<B>(String)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_GetValue__1_System_String_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.GetValue``1(System.String)
+  name.vb: GetValue(Of B)(String)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.GetValue<B>(System.String)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).GetValue(Of B)(System.String)
+  nameWithType: QueriedStorageController<T>.GetValue<B>(String)
+  nameWithType.vb: QueriedStorageController(Of T).GetValue(Of B)(String)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.Initialize
+  name: Initialize()
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_Initialize
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.Initialize
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.Initialize()
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).Initialize()
+  nameWithType: QueriedStorageController<T>.Initialize()
+  nameWithType.vb: QueriedStorageController(Of T).Initialize()
+- uid: PersistentStorage.Queried.QueriedStorageController`1.Initialize(PersistentStorage.IProperties)
+  name: Initialize(IProperties)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_Initialize_PersistentStorage_IProperties_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.Initialize(PersistentStorage.IProperties)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.Initialize(PersistentStorage.IProperties)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).Initialize(PersistentStorage.IProperties)
+  nameWithType: QueriedStorageController<T>.Initialize(IProperties)
+  nameWithType.vb: QueriedStorageController(Of T).Initialize(IProperties)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.Initialize*
+  name: Initialize
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_Initialize_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.Initialize
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.Initialize
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).Initialize
+  nameWithType: QueriedStorageController<T>.Initialize
+  nameWithType.vb: QueriedStorageController(Of T).Initialize
+- uid: PersistentStorage.Queried.QueriedStorageController`1.InsertArray*
+  name: InsertArray
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_InsertArray_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.InsertArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.InsertArray
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).InsertArray
+  nameWithType: QueriedStorageController<T>.InsertArray
+  nameWithType.vb: QueriedStorageController(Of T).InsertArray
+- uid: PersistentStorage.Queried.QueriedStorageController`1.InsertArray``1(System.String,``0,System.Int32)
+  name: InsertArray<B>(String, B, Int32)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_InsertArray__1_System_String___0_System_Int32_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.InsertArray``1(System.String,``0,System.Int32)
+  name.vb: InsertArray(Of B)(String, B, Int32)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.InsertArray<B>(System.String, B, System.Int32)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).InsertArray(Of B)(System.String, B, System.Int32)
+  nameWithType: QueriedStorageController<T>.InsertArray<B>(String, B, Int32)
+  nameWithType.vb: QueriedStorageController(Of T).InsertArray(Of B)(String, B, Int32)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.PushArray*
+  name: PushArray
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_PushArray_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.PushArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.PushArray
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).PushArray
+  nameWithType: QueriedStorageController<T>.PushArray
+  nameWithType.vb: QueriedStorageController(Of T).PushArray
+- uid: PersistentStorage.Queried.QueriedStorageController`1.PushArray``1(System.String,``0)
+  name: PushArray<B>(String, B)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_PushArray__1_System_String___0_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.PushArray``1(System.String,``0)
+  name.vb: PushArray(Of B)(String, B)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.PushArray<B>(System.String, B)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).PushArray(Of B)(System.String, B)
+  nameWithType: QueriedStorageController<T>.PushArray<B>(String, B)
+  nameWithType.vb: QueriedStorageController(Of T).PushArray(Of B)(String, B)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.RemoveArray*
+  name: RemoveArray
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_RemoveArray_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.RemoveArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.RemoveArray
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).RemoveArray
+  nameWithType: QueriedStorageController<T>.RemoveArray
+  nameWithType.vb: QueriedStorageController(Of T).RemoveArray
+- uid: PersistentStorage.Queried.QueriedStorageController`1.RemoveArray``1(System.String,``0)
+  name: RemoveArray<B>(String, B)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_RemoveArray__1_System_String___0_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.RemoveArray``1(System.String,``0)
+  name.vb: RemoveArray(Of B)(String, B)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.RemoveArray<B>(System.String, B)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).RemoveArray(Of B)(System.String, B)
+  nameWithType: QueriedStorageController<T>.RemoveArray<B>(String, B)
+  nameWithType.vb: QueriedStorageController(Of T).RemoveArray(Of B)(String, B)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.RemoveAtArray*
+  name: RemoveAtArray
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_RemoveAtArray_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.RemoveAtArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.RemoveAtArray
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).RemoveAtArray
+  nameWithType: QueriedStorageController<T>.RemoveAtArray
+  nameWithType.vb: QueriedStorageController(Of T).RemoveAtArray
+- uid: PersistentStorage.Queried.QueriedStorageController`1.RemoveAtArray``1(System.String,System.Int32)
+  name: RemoveAtArray<B>(String, Int32)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_RemoveAtArray__1_System_String_System_Int32_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.RemoveAtArray``1(System.String,System.Int32)
+  name.vb: RemoveAtArray(Of B)(String, Int32)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.RemoveAtArray<B>(System.String, System.Int32)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).RemoveAtArray(Of B)(System.String, System.Int32)
+  nameWithType: QueriedStorageController<T>.RemoveAtArray<B>(String, Int32)
+  nameWithType.vb: QueriedStorageController(Of T).RemoveAtArray(Of B)(String, Int32)
+- uid: PersistentStorage.Queried.QueriedStorageController`1.SetValue*
+  name: SetValue
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_SetValue_
+  commentId: Overload:PersistentStorage.Queried.QueriedStorageController`1.SetValue
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.SetValue
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).SetValue
+  nameWithType: QueriedStorageController<T>.SetValue
+  nameWithType.vb: QueriedStorageController(Of T).SetValue
+- uid: PersistentStorage.Queried.QueriedStorageController`1.SetValue``1(System.String,``0)
+  name: SetValue<B>(String, B)
+  href: api/PersistentStorage.Queried.QueriedStorageController-1.html#PersistentStorage_Queried_QueriedStorageController_1_SetValue__1_System_String___0_
+  commentId: M:PersistentStorage.Queried.QueriedStorageController`1.SetValue``1(System.String,``0)
+  name.vb: SetValue(Of B)(String, B)
+  fullName: PersistentStorage.Queried.QueriedStorageController<T>.SetValue<B>(System.String, B)
+  fullName.vb: PersistentStorage.Queried.QueriedStorageController(Of T).SetValue(Of B)(System.String, B)
+  nameWithType: QueriedStorageController<T>.SetValue<B>(String, B)
+  nameWithType.vb: QueriedStorageController(Of T).SetValue(Of B)(String, B)
+- uid: PersistentStorage.Queried.QueryParser
+  name: QueryParser
+  href: api/PersistentStorage.Queried.QueryParser.html
+  commentId: T:PersistentStorage.Queried.QueryParser
+  fullName: PersistentStorage.Queried.QueryParser
+  nameWithType: QueryParser
+- uid: PersistentStorage.Queried.QueryParser.GetValue*
+  name: GetValue
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_GetValue_
+  commentId: Overload:PersistentStorage.Queried.QueryParser.GetValue
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueryParser.GetValue
+  nameWithType: QueryParser.GetValue
+- uid: PersistentStorage.Queried.QueryParser.GetValue``1(System.String,System.Object)
+  name: GetValue<T>(String, Object)
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_GetValue__1_System_String_System_Object_
+  commentId: M:PersistentStorage.Queried.QueryParser.GetValue``1(System.String,System.Object)
+  name.vb: GetValue(Of T)(String, Object)
+  fullName: PersistentStorage.Queried.QueryParser.GetValue<T>(System.String, System.Object)
+  fullName.vb: PersistentStorage.Queried.QueryParser.GetValue(Of T)(System.String, System.Object)
+  nameWithType: QueryParser.GetValue<T>(String, Object)
+  nameWithType.vb: QueryParser.GetValue(Of T)(String, Object)
+- uid: PersistentStorage.Queried.QueryParser.InsertArray*
+  name: InsertArray
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_InsertArray_
+  commentId: Overload:PersistentStorage.Queried.QueryParser.InsertArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueryParser.InsertArray
+  nameWithType: QueryParser.InsertArray
+- uid: PersistentStorage.Queried.QueryParser.InsertArray``1(System.String,System.Object,``0,System.Int32)
+  name: InsertArray<T>(String, Object, T, Int32)
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_InsertArray__1_System_String_System_Object___0_System_Int32_
+  commentId: M:PersistentStorage.Queried.QueryParser.InsertArray``1(System.String,System.Object,``0,System.Int32)
+  name.vb: InsertArray(Of T)(String, Object, T, Int32)
+  fullName: PersistentStorage.Queried.QueryParser.InsertArray<T>(System.String, System.Object, T, System.Int32)
+  fullName.vb: PersistentStorage.Queried.QueryParser.InsertArray(Of T)(System.String, System.Object, T, System.Int32)
+  nameWithType: QueryParser.InsertArray<T>(String, Object, T, Int32)
+  nameWithType.vb: QueryParser.InsertArray(Of T)(String, Object, T, Int32)
+- uid: PersistentStorage.Queried.QueryParser.PushArray*
+  name: PushArray
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_PushArray_
+  commentId: Overload:PersistentStorage.Queried.QueryParser.PushArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueryParser.PushArray
+  nameWithType: QueryParser.PushArray
+- uid: PersistentStorage.Queried.QueryParser.PushArray``1(System.String,System.Object,``0)
+  name: PushArray<T>(String, Object, T)
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_PushArray__1_System_String_System_Object___0_
+  commentId: M:PersistentStorage.Queried.QueryParser.PushArray``1(System.String,System.Object,``0)
+  name.vb: PushArray(Of T)(String, Object, T)
+  fullName: PersistentStorage.Queried.QueryParser.PushArray<T>(System.String, System.Object, T)
+  fullName.vb: PersistentStorage.Queried.QueryParser.PushArray(Of T)(System.String, System.Object, T)
+  nameWithType: QueryParser.PushArray<T>(String, Object, T)
+  nameWithType.vb: QueryParser.PushArray(Of T)(String, Object, T)
+- uid: PersistentStorage.Queried.QueryParser.RemoveArray*
+  name: RemoveArray
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_RemoveArray_
+  commentId: Overload:PersistentStorage.Queried.QueryParser.RemoveArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueryParser.RemoveArray
+  nameWithType: QueryParser.RemoveArray
+- uid: PersistentStorage.Queried.QueryParser.RemoveArray``1(System.String,System.Object,``0)
+  name: RemoveArray<T>(String, Object, T)
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_RemoveArray__1_System_String_System_Object___0_
+  commentId: M:PersistentStorage.Queried.QueryParser.RemoveArray``1(System.String,System.Object,``0)
+  name.vb: RemoveArray(Of T)(String, Object, T)
+  fullName: PersistentStorage.Queried.QueryParser.RemoveArray<T>(System.String, System.Object, T)
+  fullName.vb: PersistentStorage.Queried.QueryParser.RemoveArray(Of T)(System.String, System.Object, T)
+  nameWithType: QueryParser.RemoveArray<T>(String, Object, T)
+  nameWithType.vb: QueryParser.RemoveArray(Of T)(String, Object, T)
+- uid: PersistentStorage.Queried.QueryParser.RemoveAtArray*
+  name: RemoveAtArray
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_RemoveAtArray_
+  commentId: Overload:PersistentStorage.Queried.QueryParser.RemoveAtArray
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueryParser.RemoveAtArray
+  nameWithType: QueryParser.RemoveAtArray
+- uid: PersistentStorage.Queried.QueryParser.RemoveAtArray``1(System.String,System.Object,System.Int32)
+  name: RemoveAtArray<T>(String, Object, Int32)
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_RemoveAtArray__1_System_String_System_Object_System_Int32_
+  commentId: M:PersistentStorage.Queried.QueryParser.RemoveAtArray``1(System.String,System.Object,System.Int32)
+  name.vb: RemoveAtArray(Of T)(String, Object, Int32)
+  fullName: PersistentStorage.Queried.QueryParser.RemoveAtArray<T>(System.String, System.Object, System.Int32)
+  fullName.vb: PersistentStorage.Queried.QueryParser.RemoveAtArray(Of T)(System.String, System.Object, System.Int32)
+  nameWithType: QueryParser.RemoveAtArray<T>(String, Object, Int32)
+  nameWithType.vb: QueryParser.RemoveAtArray(Of T)(String, Object, Int32)
+- uid: PersistentStorage.Queried.QueryParser.SetValue*
+  name: SetValue
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_SetValue_
+  commentId: Overload:PersistentStorage.Queried.QueryParser.SetValue
+  isSpec: "True"
+  fullName: PersistentStorage.Queried.QueryParser.SetValue
+  nameWithType: QueryParser.SetValue
+- uid: PersistentStorage.Queried.QueryParser.SetValue``1(System.String,System.Object,``0)
+  name: SetValue<T>(String, Object, T)
+  href: api/PersistentStorage.Queried.QueryParser.html#PersistentStorage_Queried_QueryParser_SetValue__1_System_String_System_Object___0_
+  commentId: M:PersistentStorage.Queried.QueryParser.SetValue``1(System.String,System.Object,``0)
+  name.vb: SetValue(Of T)(String, Object, T)
+  fullName: PersistentStorage.Queried.QueryParser.SetValue<T>(System.String, System.Object, T)
+  fullName.vb: PersistentStorage.Queried.QueryParser.SetValue(Of T)(System.String, System.Object, T)
+  nameWithType: QueryParser.SetValue<T>(String, Object, T)
+  nameWithType.vb: QueryParser.SetValue(Of T)(String, Object, T)

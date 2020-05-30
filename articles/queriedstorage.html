@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Queried Storage </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Queried Storage ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="queried-storage">Queried Storage</h1>
+
+<p>A queried controller allows you to access data through <a href="queries.html">queries</a>. Depending on your storage method implementation, queries could be implemented using the <code>QueryParser</code> class which, or the Storage Method could have a custom query system.</p>
+<h2 id="controller">Controller</h2>
+<p>The <code>QueriedStorageController</code> exposes the methods of the <code>IQueriedStorageMethod</code>. It extends the base controller class <code>PersistentStorage</code>.</p>
+<h3 id="initialization">Initialization</h3>
+<p>Initializing the controller is as easy as calling the <code>Initialize</code> function on the controller. This initializes the selected storage method. Depending on the Storage Method, it will complete tasks such as creating files or databases.</p>
+<p>Some storage methods need to be initialized with properties. In that case, you will need to instantiate the properties class for that storage method, fill out any necessary information, and then pass that class as a parameter in <code>Initialize</code>.</p>
+<p>This method will either return <code>true</code> or <code>false</code> indicating whether a storage method was selected.</p>
+<h3 id="accessing-data">Accessing data</h3>
+<p>To get data, use the <code>GetValue&lt;B&gt;</code> function on the controller, passing in a query and the type parameter, <code>B</code> indicating what type the result should be parsed as. <code>GetValue&lt;B&gt;</code> returns a result, if it exists, parsed into the type param specified.</p>
+<h3 id="updating-data">Updating data</h3>
+<p>To set/update data, use the <code>SetValue&lt;B&gt;</code> function on the controller, passing in a query, the value to set the object as, and a type <code>B</code>, indicating what type you want the value to be set as.</p>
+<h3 id="modifying-arrays">Modifying Arrays</h3>
+<p>The <code>QueriedStorageController</code> contains 4 methods to modify arrays.</p>
+<h4 id="insertarray">InsertArray</h4>
+<p><code>InsertArray</code> inserts an item into the array at a specific index. The <code>InsertArray</code> method signature is <code>InsertArray&lt;T&gt;(string query, T item, int index)</code>. <code>T</code> is the type of the object being pushed, <code>query</code> is a query selecting the array, <code>item</code> is the item that you want to push into the array, and <code>index</code> is the index you want to insert the item into.</p>
+<h4 id="pusharray">PushArray</h4>
+<p><code>PushArray</code> pushes an item into the array at the end. The <code>PushArray</code> method signature is <code>PushArray&lt;T&gt;(string query, T item)</code>. <code>T</code> is the type of the object being pushed, <code>query</code> is a query selecting the array, and <code>item</code> is the item that you want to push into the array.</p>
+<h4 id="removeatarray">RemoveAtArray</h4>
+<p><code>RemoveAtArray</code> removes an item in the array by its index. The <code>RemoveAtArray</code> method signature is <code>RemoveAtArray&lt;T&gt;(string query, int index)</code>. <code>T</code> is the type of the object being removed, <code>query</code> is a query selecting the array, and <code>index</code> is the index you want to remove the item at.</p>
+<h4 id="removearray">RemoveArray</h4>
+<p><code>RemoveArray</code> removes an item in the array. The <code>RemoveArray</code> method signature is <code>RemoveArray&lt;T&gt;(string query, T item)</code>. <code>T</code> is the type of the object being removed, <code>query</code> is a query selecting the array, and <code>item</code> is the item that you want to remove from the array.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jtsshieh/PersistentStorage/blob/c5aa5ddb837a9022298747ac84cc80269348658b/docs/articles/queriedstorage.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
